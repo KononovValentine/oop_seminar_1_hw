@@ -54,7 +54,6 @@ public record DragRace(LinkedList<Car> cars) {
         System.out.println();
         System.out.println("Результаты заездов: ");
 
-
         for (int i = 0; i < result.length; i++) {
             int time = Integer.parseInt(result[i].split("Milliseconds to finish: ")[1]);
             if (i == 0) {
